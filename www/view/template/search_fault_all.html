@@ -1,0 +1,35 @@
+<?php
+echo '
+    <h1  class="form-label">Все ошибки</label><br><br>
+        <table class="tg" >
+            <tr>
+                <th class="tg-un58">ID</th>
+                <th class="tg-un58">Код неиспр.</th>
+                <th class="tg-un58">Код CEN</th>
+                <th class="tg-un58">Тип запазд.</th>
+                <th class="tg-un58">Описание</th>
+                <th class="tg-un58">Возможная причина</th>
+                <th class="tg-un58">Выявление</th>
+                <th class="tg-un58">Действие</th>
+                <th class="tg-un58">Восстановление</th>
+                <th class="tg-un58">Проверка</th>
+            </tr>
+';
+    foreach ($stmt as $row){
+        echo '  
+                <tr>
+                    <td class="tg-p8z9">'.$row['id'].'</td>
+                    <td class="tg-p8z9">'.$row['code'].'</td>
+                    <td class="tg-p8z9">'.$row['code_c'].'</td>
+                    <td class="tg-p8z9">'.$row['type'].'</td>
+                    <td class="tg-p8z9">'.$row['description'].'</td>
+                    <td class="tg-p8z9">'.$row['cause'].'</td>
+                    <td class="tg-p8z9">'.$row['detection'].'</td>
+                    <td class="tg-p8z9">'.$row['action'].'</td>
+                    <td class="tg-p8z9">'.$row['restore'].'</td>
+                    <td class="tg-p8z9">'.$row['scan'].'</td>
+                </tr>
+  
+    '; }
+?>
+</table> 

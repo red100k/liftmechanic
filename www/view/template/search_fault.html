@@ -1,0 +1,21 @@
+ <div class="row">
+        <div class="search">
+            <form id="rendered-form" method="get">
+                <div class="rendered-form">
+                       <label   class="form-label">Поиск</label><br>
+                       <select name="assembled" class="form__input form__input__search_err">
+                        <option>Kone</option>
+                        <option>Schindler</option>
+                        </select> 
+                        <br>
+                       <input type="text" placeholder="Ошибка" class="form__input form__input__search_err" name="text_fault" id="text_fault" title="Поиск">
+                       <br> 
+                       <input name="view" type="hidden" value="faults">
+                       <button type="submit" class="form__button" name="fault_" value="search_code" style="success" id="fault_num">Искать
+                        </button>
+                   <a  class="fault_num btn btn-success" href="/index.php?view=faults&fault_=search_code_all" >Все
+                    </a>
+                </div>
+            </form>
+        </div>
+

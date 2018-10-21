@@ -1,0 +1,41 @@
+/* -----------------------------НАСТРОЙКА НАБОРА ШРИФТОВ--------------------------------------------------- */
+@font-face {
+  font-family: "Seravek"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-Bold"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-BoldItalic"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-BoldItalic.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-ExtraLight"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-ExtraLightItalic"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-ExtraLightItalic.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-Italic"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-Italic.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-Light"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-LightItalic"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-LightItalic.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-Medium"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: "Seravek-MediumItalic"; /* Гарнитура шрифта */
+  src: url(/styles/fonts/Seravek-MediumItalic.ttf); /* Путь к файлу со шрифтом */
+}

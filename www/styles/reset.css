@@ -1,0 +1,66 @@
+﻿/* Сброс стилей  */
+* {
+    font-family: "Seravek";
+    vertical-align: baseline;
+    font-style: inherit;
+    font-size: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    line-height: 1;/*Интервал*/
+    /*background-image: url("../img/fon_body1.png");*/
+    font-family: "Seravek";
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    -webkit-font-smoothing: antialised;
+    overflow-x: hidden;
+    background-size: auto; /*  ширина или высота картинки равнялась ширине или высоте блока*/
+
+}
+
+
+
+h1{
+    font-family: "Seravek-Italic";
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-family: "Seravek-Bold";
+    background: none;
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+    font-weight: normal;
+}
+
+h3{
+    font-family: "Seravek-Bold";
+    background: none;
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+}
+h4{
+    font-family: "Seravek-Bold";
+    background: none;
+    font-size: 30px;
+    line-height: normal;
+    text-align: center;
+    font-weight: normal;
+}
+span{
+    font-family: "Seravek";
+}
+p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-family: "Seravek";
+}
