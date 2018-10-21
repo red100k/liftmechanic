@@ -9,11 +9,11 @@ session_start();
 // Ключ защиты
 $protection='on';
 // Подключение к базе данных
-include $_SERVER['DOCUMENT_ROOT']."/function/connect_db.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/function/connect_db.php";
 // Модуль пользователя
 // Проверка разрешения
-include $_SERVER['DOCUMENT_ROOT']."/function/auth/check.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/function/auth/check.php";
 // Если не пройдем авторизацию все что ниже не запустим
-include $_SERVER['DOCUMENT_ROOT']."/view/user.php";
+require_once $_SERVER['DOCUMENT_ROOT']."/view/user.php";
 
 ?>
